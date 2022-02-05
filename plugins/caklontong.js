@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 
 let timeout = 120000
-let poin = 500
+let poin = 6000000
 let src
 let handler = async (m, { conn, usedPrefix }) => {
     conn.caklontong = conn.caklontong ? conn.caklontong : {}
